@@ -1,0 +1,49 @@
+body{
+	background: black;
+	color: white;
+
+}
+
+h1{
+	font-size: 60px;
+	text-shadow: 7px 4px 5px #0088a9;
+	font-family: copperplate;
+}
+
+.cool{
+	padding: 80px;
+	margin: 40px;
+}
+
+h2{
+	font-size: 20px;
+	font-family: Georgia;
+	overflow-wrap
+}
+
+btn{
+	background-color: yellow;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 25px;
+	padding:8px;
+	color: black;
+	cursor: pointer;
+    
+ }
+
+ .cool {
+  display: flex;
+}
+
+.column {
+  flex: 1%;
+  padding: 10px;
+  margin-right: 60px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}

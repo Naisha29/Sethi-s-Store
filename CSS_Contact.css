@@ -1,0 +1,46 @@
+body{
+	background-image: : black;
+	color: white;
+}
+
+h1{
+	font-size: 60px;
+	text-shadow: 7px 4px 5px #0088a9;
+	font-family: copperplate;
+}
+
+
+.ok_links li{
+	font-size: 30px;
+	font-family: papyrus;
+	line-height: 100px;
+}
+
+
+.ok_links li::before {
+   content:"\25AA";/*unicode*/
+   color: #0088a9; 
+   display: inline-block; /* Required to add space between 
+        the bullet and the text */
+     
+   /* Required to add space between
+        the bullet and the text */
+   width: 1em; 
+     
+   /* Required to add space between the
+        bullet and the text */
+   margin-left: -0.9em; 
+}
+
+
+h4{
+	color: #0088a9;
+	font-size: 25px;
+	margin-left: 25px;
+	line-height: 40px;
+}
+
+h3{
+	font-size: 20px;
+	margin-left: 30px;
+}

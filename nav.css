@@ -1,0 +1,61 @@
+ /*it is for all*/ 
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #24252A;
+}
+
+li, a, button {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: #edf0f1;
+	/*removes the underline*/text-decoration: none;
+}
+
+
+
+header {
+	display: flex;/*aligns everything next to each other*/
+    justify-content: flex-end;/*pushes everything to right i.e end*/
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+	position: relative; 
+    left: -80px;
+    top: -10px;
+}
+
+.nav_links li {
+	display: inline-block;/*list is now next to each other*/
+	padding: 0px 20px;
+	
+}
+
+
+.nav_links li a:hover {
+	color: #0088a9;
+	
+}
+
+
+button {
+	margin-left: 20px;
+	padding: 9px 25px;
+	background-color: rgba(8,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	/*transition: all 0.3s ease 0s;*/
+}
+
+button:hover {
+	background-color: rgba(0,136,169,0.8);
+}
+

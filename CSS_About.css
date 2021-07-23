@@ -1,0 +1,46 @@
+body{
+	background: black;
+	color: white;
+}
+
+h1{
+	font-size: 60px;
+	text-shadow: 7px 4px 5px #0088a9;
+	font-family: copperplate;
+}
+
+h4{
+	font-size: 30px;
+	font-family: Brush Script MT;
+	text-indent: 15px;
+	color: #0088a9;
+}
+
+h5{
+	text-indent: 20px;
+	font-size: 20px;
+	margin: 20px;
+	padding: 20px;
+	font-family: papyrus;
+	line-height: 35px;
+}
+
+.core:link {
+  color: #0088a9;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.core:visited {
+  color: #0088a9;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.core:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
